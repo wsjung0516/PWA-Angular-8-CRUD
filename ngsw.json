@@ -1,0 +1,106 @@
+{
+  "configVersion": 1,
+  "timestamp": 1574559463757,
+  "appData": {
+    "name": "Join Eight",
+    "description": "Join Eight CRUD",
+    "version": "1.1.0",
+    "changelog": "Added better resource caching for Join Eight"
+  },
+  "index": "https://wsjung0516.github.io/PWA-Angular-8-CRUD/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/5-es2015.545752d8a4ce146ee36a.js",
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/5-es5.545752d8a4ce146ee36a.js",
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/favicon.ico",
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/index.html",
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/main-es2015.04237018edff3810a8fa.js",
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/main-es5.04237018edff3810a8fa.js",
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/polyfills-es2015.25ff13674b3056b14f77.js",
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/polyfills-es5.ab8c3fd91abe92321ffb.js",
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/runtime-es2015.eda047c18be303143355.js",
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/runtime-es5.eda047c18be303143355.js",
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/scripts.7746a9bb893d0ebac187.js",
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/styles.dee36792b62f8723d102.css"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/assets/icons/icon-128x128.png",
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/assets/icons/icon-144x144.png",
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/assets/icons/icon-152x152.png",
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/assets/icons/icon-192x192.png",
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/assets/icons/icon-384x384.png",
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/assets/icons/icon-512x512.png",
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/assets/icons/icon-72x72.png",
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/assets/icons/icon-96x96.png",
+        "https://wsjung0516.github.io/PWA-Angular-8-CRUD/assets/jointeight-logo.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "Join Eight api cache",
+      "patterns": [
+        "https:\\/\\/5d2235dc2ba8cf0014c44de6\\.mockapi\\.io\\/api\\/v1\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 3600000,
+      "timeoutMs": 5000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/5-es2015.545752d8a4ce146ee36a.js": "593932f2da9074fff233761b95cd87c16aed7660",
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/5-es5.545752d8a4ce146ee36a.js": "b625030e73e8f24b7dd062f30db7cb7ba0a8c3d4",
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/assets/jointeight-logo.png": "3913a4d1ca1537e7f3af5f9538d4535d531701b7",
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/favicon.ico": "2d6ef74a2277ccb6b9988d2f8439c3de0186ccd1",
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/index.html": "fa12c086920cd1173e59689b2a89d8c27418a326",
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/main-es2015.04237018edff3810a8fa.js": "35902d5663e0b7bed9c318df124a791ff5b56c84",
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/main-es5.04237018edff3810a8fa.js": "e145f86515b561e9c40328c81e09750c75d85b83",
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/polyfills-es2015.25ff13674b3056b14f77.js": "8d657a1a62b4a0583fdebe73e9b4203b5d20657e",
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/polyfills-es5.ab8c3fd91abe92321ffb.js": "ba376426c27f6ac24f2a23006c7ffb836d75220a",
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/runtime-es2015.eda047c18be303143355.js": "225302170906f544c70b1778ac2723e2cf40f20f",
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/runtime-es5.eda047c18be303143355.js": "2fa2bc775c9f7816842d6871e92f95bdfbaa9d35",
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/scripts.7746a9bb893d0ebac187.js": "6cb9f1246740f670bf6b861f94e50d4f5029d34d",
+    "https://wsjung0516.github.io/PWA-Angular-8-CRUD/styles.dee36792b62f8723d102.css": "6144850967c9852abd50de498a560a4f0e15247c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
